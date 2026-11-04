@@ -153,18 +153,6 @@ assert std.member([ 'none', 'legacy', 'extra-small' ], params.preset) : 'params.
         },
       },
     },
-    alertmanager: {
-      replicas: 3,
-      resources: {
-        limits: {
-          memory: '512Mi',
-        },
-        requests: {
-          cpu: '250m',
-          memory: '256Mi',
-        },
-      },
-    },
     overridesExporter: {
       replicas: 1,
       resources: {

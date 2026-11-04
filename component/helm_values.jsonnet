@@ -248,9 +248,6 @@ local ingress = com.makeMergeable({
 
 // hardcoded removal of rollout-operator
 local hardRestrictions = com.makeMergeable({
-  minio: {
-    enabled: false,
-  },
   rollout_operator: {
     enabled: false,
   },
