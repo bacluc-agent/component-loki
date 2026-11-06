@@ -25,7 +25,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 38dc4f262caa3da32f4c3c58a1de6886773454d9d5525b4d7b6758167fa1bd95
+        checksum/config: c2f172dded89a26a88ffa4748c61d7db1697973ea7b349ab86e2211524dd2cb6
         kubectl.kubernetes.io/default-container: backend
       labels:
         app.kubernetes.io/component: backend

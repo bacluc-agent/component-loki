@@ -22,7 +22,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 83d54cad2a5f7f7a7fb2a90b8acae53bf41f96c3f3dd96ae830932568b54ab6e
+        checksum/config: 40ab7f032e71127dcab382c935e4536ce153cf822c8699a28a7319887e2c0dde
         kubectl.kubernetes.io/default-container: compactor
       labels:
         app.kubernetes.io/component: compactor

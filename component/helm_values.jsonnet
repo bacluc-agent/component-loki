@@ -171,8 +171,13 @@ local global = com.makeMergeable({
 // loki Config
 local loki = com.makeMergeable({
   loki: {
-    limits_config: {
+    compactor: {
+      // retention_enabled in limits_config is rejected by loki itself; it lives on the compactor
+      delete_request_store: 's3',
       retention_enabled: true,
+      working_directory: '/var/loki/compactor/retention',
+    },
+    limits_config: {
       retention_period: params.global.retention,
     },
     schemaConfig: {
