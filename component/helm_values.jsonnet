@@ -172,6 +172,7 @@ local global = com.makeMergeable({
 local loki = com.makeMergeable({
   loki: {
     limits_config: {
+      retention_enabled: true,
       retention_period: params.global.retention,
     },
     schemaConfig: {

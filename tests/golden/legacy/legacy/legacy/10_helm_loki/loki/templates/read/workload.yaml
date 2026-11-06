@@ -24,7 +24,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: ce50afec5572924f052536fad720dedf7e6b89ee8485007d1c915216b0feeeae
+        checksum/config: 38dc4f262caa3da32f4c3c58a1de6886773454d9d5525b4d7b6758167fa1bd95
         kubectl.kubernetes.io/default-container: read
       labels:
         app.kubernetes.io/component: read
