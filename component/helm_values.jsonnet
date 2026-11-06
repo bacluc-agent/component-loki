@@ -172,7 +172,10 @@ local global = com.makeMergeable({
 local loki = com.makeMergeable({
   loki: {
     compactor: {
-      // retention_enabled in limits_config is rejected by loki itself; it lives on the compactor
+      // retention_enabled in limits_config is rejected by loki itself; it lives on the compactor.
+      // Making delete-request-store explicit when retention is enabled (3.0.0 breaking change)
+      // is required by https://github.com/grafana/loki/pull/10840 and
+      // https://grafana.com/docs/loki/latest/setup/upgrade/#delete_request_store-should-be-explicitly-configured
       delete_request_store: 's3',
       retention_enabled: true,
       working_directory: '/var/loki/compactor/retention',
