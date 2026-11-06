@@ -21,7 +21,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 3c1d2e71f51f12dc19ff070c24fcddc6753f403e393fcd255f274d5c757fb513
+        checksum/config: 494f8a319d81d9926611ae391a8d742ef093249a2e84853964073ad7856b3db2
         kubectl.kubernetes.io/default-container: ruler
       labels:
         app.kubernetes.io/component: ruler

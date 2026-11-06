@@ -25,7 +25,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 50a4a55c03f81d16280ddcf8f281e7e5493c15736deca0161784fb3f782d8204
+        checksum/config: 83d54cad2a5f7f7a7fb2a90b8acae53bf41f96c3f3dd96ae830932568b54ab6e
         kubectl.kubernetes.io/default-container: query-scheduler
       labels:
         app.kubernetes.io/component: query-scheduler
