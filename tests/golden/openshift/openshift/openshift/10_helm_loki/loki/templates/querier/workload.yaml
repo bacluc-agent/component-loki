@@ -25,7 +25,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 098e41dda167539b01edae3b6f131fab0a840870963673e6dcc415357f3597d2
+        checksum/config: 69b70ba23cd5b0710aa0e679bdb6985ad18edbe1bf8fec8fb58d1c80ca7cb0be
         kubectl.kubernetes.io/default-container: querier
       labels:
         app.kubernetes.io/component: querier
