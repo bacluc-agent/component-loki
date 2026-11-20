@@ -26,7 +26,8 @@ parameters:
         repository: prom/memcached-exporter
       nginx:
         registry: docker.io
-        repository: nginxinc/nginx-unprivileged
+        repository: nginx/nginx-unprivileged
+        tag: 1.31.9-alpine3.24
       accessLogExporter:
         registry: ghcr.io
         repository: jkroepke/access-log-exporter

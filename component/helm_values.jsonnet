@@ -136,9 +136,7 @@ local images = com.makeMergeable({
     image: params.images.memcachedExporter,
   },
   gateway: {
-    nginx: {
-      image: params.images.nginx,
-    },
+    image: params.images.nginx,
     metrics: {
       image: params.images.accessLogExporter,
     },
